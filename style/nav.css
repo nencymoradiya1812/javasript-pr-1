@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  background-color: burlywood;
+}
+.header .navigation .header-menu-waper {
+  display: flex;
+  justify-content: space-around;
+}
+.header .navigation .header-menu-waper .logo-content .logo-text {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 0, 0);
+}
+.header .navigation .header-menu-waper .header-menu-ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 500px;
+}
+.header
+  .navigation
+  .header-menu-waper
+  .header-menu-ul
+  .header-menu-li
+  .header-menu-link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+}
