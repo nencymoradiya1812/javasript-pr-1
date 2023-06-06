@@ -1,0 +1,28 @@
+/* signin page  start hear*/
+.sign-div,.login-div{
+                background-image: url(../images/sign\ in\ image.jpg);
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height: 100vh;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+}
+#name ,#email, #password, #conpassword ,#number{
+                width: 200px;
+                height: 20px;
+                border-radius: 10px;
+                padding: 10px;
+}
+.button{
+     padding: 10px;
+     border-radius: 10px;
+}
+/* signin page  end hear*/
+
+
+/* login page  start hear*/
+
