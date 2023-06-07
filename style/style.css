@@ -24,5 +24,21 @@
 /* signin page  end hear*/
 
 
-/* login page  start hear*/
-
+/* product page  start hear*/
+.main-product{
+     display: flex;
+}
+.box-1{
+     height: 100vh;
+     width: 25%;
+}
+.box-2{
+     height: 100vh;
+     width: 75%;
+     
+}
+/* cart page start hear */
+.product_img{
+     width: 500px;
+     height: 500px;
+}
